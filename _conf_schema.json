@@ -1,0 +1,47 @@
+{
+  "base_url": {
+    "type": "string",
+    "description": "API Base URL",
+    "hint": "默认 https://zexitongxue.com/v1",
+    "default": "https://zexitongxue.com/v1"
+  },
+  "api_key": {
+    "type": "string",
+    "description": "API Key",
+    "hint": "在请求头中以 Bearer 方式认证",
+    "default": ""
+  },
+  "model": {
+    "type": "string",
+    "description": "模型名称",
+    "default": "sora-v3-pro"
+  },
+  "default_aspect_ratio": {
+    "type": "string",
+    "description": "默认画面比例",
+    "options": ["16:9", "9:16", "4:3", "3:4", "1:1", "21:9", "adaptive"],
+    "default": "16:9"
+  },
+  "default_seconds": {
+    "type": "string",
+    "description": "默认视频时长(秒)",
+    "options": ["4", "5", "10", "15"],
+    "default": "5"
+  },
+  "default_resolution": {
+    "type": "string",
+    "description": "默认分辨率",
+    "default": "720p"
+  },
+  "poll_interval": {
+    "type": "int",
+    "description": "轮询间隔(秒)",
+    "hint": "建议 5-10 秒",
+    "default": 8
+  },
+  "max_poll_attempts": {
+    "type": "int",
+    "description": "最大轮询次数",
+    "default": 120
+  }
+}

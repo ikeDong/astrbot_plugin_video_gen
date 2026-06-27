@@ -1,0 +1,7 @@
+name: astrbot_plugin_video_gen
+display_name: 视频生成
+desc: 基于 SD2 逆向 API 的视频生成插件，支持文生视频、图生视频、首尾帧。
+version: v1.0.0
+author: astrbot
+repo: ""
+astrbot_version: ">=4.16,<5"
